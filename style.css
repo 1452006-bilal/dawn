@@ -65,7 +65,7 @@ label {
 
 .para {
   display: flex;
-  margin: 0 30px;
+  /* margin: 0 30px; */
   overflow: auto;
   scrollbar-width: thin;
   min-height: 100px;
@@ -74,8 +74,8 @@ label {
 .para1,
 .para2,
 .para3 {
-  width: 400px;
-  padding: 10px;
+  width: 33%;
+  /* padding: 10px; */
   box-sizing: border-box;
 }
 p {
@@ -103,12 +103,12 @@ h5 {
   background-color: black;
 }
 .heading {
-  padding: 10px 30px;
+  /* padding: 10px; */
   font-size: 100px;
   text-align: left;
   margin-bottom: 20px;
   font-family: "Didot", "Bodoni MT", "Times New Roman", serif;
-  margin: 0 30px;
+  /* margin: 0 30px; */
 }
 .bmw {
   width: 100%;
@@ -124,7 +124,7 @@ h5 {
   margin: 20px 0;
 }
 .para4 {
-  margin: 0 40px;
+  /* margin: 0 40px; */
   text-align: justify;
   width: 30%;
 }
@@ -134,7 +134,8 @@ h5 {
 }
 .content {
   font-size: 29px;
-  width: 80%;
+  /* width: 100%; */
+  margin: 30px;
 }
 .image {
   text-align: center;
@@ -208,7 +209,11 @@ footer {
 }
 .subhead {
   font-weight: bold;
-  padding: 0;
+  /* margin: 20px;
+  padding: 20px; */
+}
+.subhead li{
+  list-style-type: none;
 }
 .subhead p {
   margin: 15px 0;
